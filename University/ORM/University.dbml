@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UNEVERSITY.MDF" Class="UniversityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=UNEVERSITY.MDF;Integrated Security=True" SettingsObjectName="University.Properties.Settings" SettingsPropertyName="UNEVERSITY_MDFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Darse" Member="Darses">
+    <Type Name="Darse">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_dars" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tedad_vahed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.entekhab" Member="entekhabs">
+    <Type Name="entekhab">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_student" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_ostad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_dars" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tedad_vahed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nomre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nuser" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="npass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ostad" Member="Ostads">
+    <Type Name="Ostad">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_ostad" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="family" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id_meli" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="sh_sh" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="madrak" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mobile" Type="System.String" DbType="Char(11)" CanBeNull="true" />
+      <Column Name="tel" Type="System.String" DbType="Char(8)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_student" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="family" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id_meli" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="sh_sh" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="vorodi" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="maghtae" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="mobile" Type="System.String" DbType="Char(11)" CanBeNull="true" />
+      <Column Name="tel" Type="System.String" DbType="Char(8)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

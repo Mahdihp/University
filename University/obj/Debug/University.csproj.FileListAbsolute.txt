@@ -1,0 +1,15 @@
+E:\Temp File\Programing\C#\Project Me\University\University\bin\Debug\University.exe.config
+E:\Temp File\Programing\C#\Project Me\University\University\bin\Debug\University.exe
+E:\Temp File\Programing\C#\Project Me\University\University\bin\Debug\University.pdb
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.csprojResolveAssemblyReference.cache
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmDaneshjoo.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmDars.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.frmLogin.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmMain.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmOstad.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmUsers.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Forms.frmKarnameh.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.Properties.Resources.resources
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.csproj.GenerateResource.Cache
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.exe
+E:\Temp File\Programing\C#\Project Me\University\University\obj\Debug\University.pdb
